@@ -72,9 +72,9 @@ public class Login {
                
                
        if (loginSuccessful) {
-       return "Welcome" + name + " " + userSurName + " " + " Welcome back";
+       return "Welcome " + name + " " + userSurName + ", it is great to see you again.";
         }else{
-       return "Username or password incorrect, please try again";
+       return "Username or password incorrect, please try again.";
        
        }
        }
@@ -100,7 +100,7 @@ public class Login {
 
     } else {
 
-        return "User logged in successfully.";
+        return "User registered successfully.";
     }
 }
        }
