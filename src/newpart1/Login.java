@@ -6,7 +6,7 @@ package newpart1;
 
 /**
  *
- * @author User
+ * @author Francies Sema
  */
 public class Login {
     
